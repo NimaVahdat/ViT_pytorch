@@ -4,6 +4,12 @@ This repository contains a PyTorch implementation of the Vision Transformer (ViT
 ## Overview
 The Vision Transformer (ViT) is a groundbreaking architecture that applies transformers, typically used for natural language processing, to the domain of image recognition. By treating images as sequences of patches (analogous to words in text), ViT achieves state-of-the-art performance on various image recognition benchmarks, often surpassing convolutional neural networks (CNNs).
 
+## Vision Transformer Model Architecture
+
+![Vision Transformer Architecture](https://github.com/NimaVahdat/ViT_pytorch/blob/main/ViT_arch.png))
+
+*Figure 1: Vision Transformer Architecture from the paper "An Image is Worth 16x16 Words: Transformers for Image Recognition at Scale".*
+
 Key Features:
 * Patch Embedding: An image is divided into fixed-size patches, which are then flattened and linearly embedded.
 * Transformer Encoder: The sequence of patch embeddings is processed by a stack of transformer encoder layers.
